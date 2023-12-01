@@ -3,13 +3,14 @@ import { Link } from "react";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import "../assets/css/Home.css";
+import img from '../assets/img/lolo.png';
 
 const Home = () => {
   return (
     <div className="Home-wrapper">
       <div className="Dayton-img"></div>
       <div className="Link-Container">
-        <Card.Title className="Card-Title">Dayton T. Neuburger</Card.Title>
+        <Card.Img src={img} className="Card-Title"></Card.Img>
         <Card.Subtitle className="Card-Subtitle">
           3D Artist & Game Developer
         </Card.Subtitle>
