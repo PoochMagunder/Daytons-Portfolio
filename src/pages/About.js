@@ -9,7 +9,6 @@ import img from "../assets/img/LandingName.png";
 const About = () => {
   return (
     <div className="About-wrapper">
-      <div className="About-Dayton-img"></div>
       <div className="About-Container">
         <Card.Img src={img} className="Card-Title"></Card.Img>
         <Card.Subtitle className="Card-Subtitle">
@@ -61,11 +60,11 @@ const About = () => {
         <div className="About-Buttons-Container">
           <Button
             as={Link}
-            to="/Projects"
+            to="/About"
             className="About-btn"
             variant="outline-light"
           >
-            Projects
+            About
           </Button>
           <Button
             as={Link}
@@ -83,9 +82,13 @@ const About = () => {
           >
             Resume
           </Button>
-          <Button as={Link} to="/About" className="About-btn" variant="outline-light">
-            About
+          <Button as={Link} to="/Projects" className="About-btn" variant="outline-light">
+            Projects
           </Button>
+          <Button as={Link} to="/" className="About-btn" variant="outline-light">
+            Home
+          </Button>
+
         </div>
       </div>
     </div>

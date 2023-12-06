@@ -5,21 +5,10 @@
   flex-direction: row;
 }
 
-.Dayton-img {
-  background-image: url("../img/dayton-photo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-width: 50%;
-  height: auto;
-  border-right: var(--border-color);
-  border-right-style: solid;
-}
-
 .Link-Container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -66,20 +55,14 @@
 @media screen and (max-width: 1800px) {
   .Home-wrapper {
     flex-direction: column;
-  }
-
-  .Dayton-img {
-    width: 100%;
     height: 100%;
-    border-bottom: var(--border-color);
-    border-bottom-style: solid;
-    border-right: none;
-    border-right-style: none;
   }
 
   .Link-Container {
     width: 100%;
     height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -243,29 +226,29 @@
       width: 270px;
       margin-bottom: 15px;
     }
-  
+
     .Link-Container .Card-Subtitle {
       font-size: 17px;
       margin-bottom: 15px;
       font-weight: 400;
       padding-bottom: 15px;
     }
-  
+
     .Link-Container .Card-Text {
       width: 250px;
       margin-bottom: 18px;
       font-weight: 300;
     }
-  
+
     .Buttons-Container {
       width: 250px;
       flex-direction: row;
       flex-wrap: nowrap;
     }
-  
+
     .Buttons-Container .btn {
       font-size: 8px;
       font-weight: 400;
     }
-}
+  }
 }

@@ -5,23 +5,13 @@
     flex-direction: row;
 }
 
-.About-Dayton-img {
-    background-image: url("../img/dayton-photo.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
-    border-right: var(--border-color);
-    border-right-style: solid;
-  }
-
   .About-Container {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: auto;
-    margin: 50px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -30,7 +20,8 @@
 
   .About-Container .Card-Title {
     width: 700px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .About-Container .Card-Subtitle {
@@ -66,4 +57,203 @@
     margin: 10px;
     border-radius: 0%;
     width: 100px;
+  }
+
+  @media screen and (max-width: 1800px) {
+    .About-wrapper {
+      flex-direction: column;
+    }
+  
+    .About-Container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .About-Container .Card-Title {
+      width: 100px;
+    }
+  
+    .About-Container .Card-Subtitle {
+      font-size: 45px;
+      padding-bottom: 50px;
+    }
+  
+    .About-Container .Card-Text {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+  
+    .About-Buttons-Container {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 750px;
+    }
+  
+    .About-Buttons-Container .About-btn {
+      font-size: 30px;
+      font-weight: 400;
+      width: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 820px) {
+    .About-Container .Card-Title {
+      width: 400px;
+      margin-bottom: 50px;
+    }
+  
+    .About-Container .Card-Subtitle {
+      font-size: 30px;
+      margin-bottom: 35px;
+      padding-bottom: 35px;
+    }
+  
+    .About-Container .Card-Text {
+      font-size: 25px;
+      margin-bottom: 40px;
+    }
+  
+    .About-Buttons-Container {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 500px;
+    }
+  
+    .About-Buttons-Container .About-btn {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .About-Container .Card-Title {
+      width: 380px;
+      margin-bottom: 30px;
+    }
+  
+    .About-Container .Card-Subtitle {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+  
+    .About-Container .Card-Text {
+      width: 300px;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+  
+    .About-Buttons-Container {
+      width: 300px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  
+    .About-Buttons-Container .About-btn {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 390px) {
+    .About-Container .Card-Title {
+      font-size: 35px;
+    }
+  
+    .About-Container .Card-Subtitle {
+      font-size: 20px;
+    }
+  
+    .About-Container .Card-Text {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .About-Container .Card-Title {
+      width: 340px;
+      margin-bottom: 20px;
+    }
+  
+    .About-Container .Card-Subtitle {
+      margin-bottom: 30px;
+      font-weight: 400;
+      padding-bottom: 30px;
+    }
+  
+    .About-Container .Card-Text {
+      margin-bottom: 25px;
+      font-weight: 300;
+    }
+  
+    .About-Buttons-Container {
+      width: 100px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  
+    .About-Buttons-Container .About-btn {
+      font-size: 12px;
+    }
+  
+    @media screen and (max-width: 360px) {
+      .About-Container .Card-Title {
+        width: 320px;
+        margin-bottom: 20px;
+      }
+  
+      .About-Container .Card-Subtitle {
+        margin-bottom: 30px;
+        font-weight: 400;
+        padding-bottom: 30px;
+      }
+  
+      .About-Container .Card-Text {
+        margin-bottom: 18px;
+        font-weight: 300;
+      }
+  
+      .About-Buttons-Container {
+        width: 100px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+  
+      .About-Buttons-Container .About-btn {
+        font-size: 12px;
+      }
+    }
+  
+    @media screen and (max-width: 280px) {
+      .About-Container .Card-Title {
+        width: 270px;
+        margin-bottom: 15px;
+      }
+    
+      .About-Container .Card-Subtitle {
+        font-size: 17px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        padding-bottom: 15px;
+      }
+    
+      .About-LContainer .Card-Text {
+        width: 250px;
+        margin-bottom: 18px;
+        font-weight: 300;
+      }
+    
+      .About-Buttons-Container {
+        width: 250px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+    
+      .About-Buttons-Container .About-btn {
+        font-size: 8px;
+        font-weight: 400;
+      }
+  }
   }

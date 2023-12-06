@@ -2,9 +2,14 @@
   --border-color: rgba(26, 26, 26, 0.788);
 }
 
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
 body {
   margin: 0;
-  height: 100%;
+  height: auto;
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -16,4 +21,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+@media screen and (max-width: 1800px) {
+  #root {
+    flex-direction: column;
+  }
 }

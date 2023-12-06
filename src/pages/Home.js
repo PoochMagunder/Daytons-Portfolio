@@ -9,7 +9,6 @@ import img from '../assets/img/LandingName.png';
 const Home = () => {
   return (
     <div className="Home-wrapper">
-      <div className="Dayton-img"></div>
       <div className="Link-Container">
         <Card.Img src={img} className="Card-Title"></Card.Img>
         <Card.Subtitle className="Card-Subtitle">
