@@ -21,7 +21,7 @@ const Home = () => {
         </Card.Text>
         <div className="Buttons-Container">
         <Button as={Link} to="/Projects" className="btn" variant="outline-light">
-          Projects
+          About
         </Button>
         <Button as={Link} to="/Portfolio" className="btn" variant="outline-light">
           Portfolio
@@ -30,7 +30,7 @@ const Home = () => {
           Resume
         </Button>
         <Button as={Link} to="/About" className="btn" variant="outline-light">
-          About
+          Projects
         </Button>
 
         </div>
