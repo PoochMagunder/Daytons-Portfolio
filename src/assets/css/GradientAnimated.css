@@ -1,0 +1,110 @@
+.Home-wrapper {
+  background: linear-gradient(357deg, #3c2d12, #505d22, #4a3817, #546124);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+
+.About-wrapper {
+  background: linear-gradient(357deg, #3c2d12, #505d22, #4a3817, #546124);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 14s ease infinite;
+  -moz-animation: AnimationName 14s ease infinite;
+  -o-animation: AnimationName 14s ease infinite;
+  animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
+}
+

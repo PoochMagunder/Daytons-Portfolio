@@ -1,0 +1,63 @@
+.About-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.About-Dayton-img {
+    background-image: url("../img/dayton-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    border-right: var(--border-color);
+    border-right-style: solid;
+  }
+
+  .About-Container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .About-Container .Card-Title {
+    width: 700px;
+    margin-bottom: 50px;
+  }
+  
+  .About-Container .Card-Subtitle {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: var(--border-color);
+    border-bottom-style: solid;
+    width: 80%;
+  }
+
+  .Info-Container {
+    height: auto;
+    width: 80%;
+    font-size: large;
+  }
+
+  .About-Buttons-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-around;
+  }
+  
+  .About-Buttons-Container .About-btn {
+    margin: 10px;
+    border-radius: 0%;
+    width: 100px;
+  }

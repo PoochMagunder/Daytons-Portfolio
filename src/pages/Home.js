@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react";
 import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
+import '../assets/css/GradientAnimated.css';
 import "../assets/css/Home.css";
-import img from '../assets/img/lolo.png';
+import img from '../assets/img/LandingName.png';
 
 const Home = () => {
   return (
@@ -19,12 +20,19 @@ const Home = () => {
           one of the options below
         </Card.Text>
         <div className="Buttons-Container">
-        <Button className="btn" variant="dark">
-          3D Art
+        <Button as={Link} to="/Projects" className="btn" variant="outline-light">
+          Projects
         </Button>
-        <Button className="btn" variant="dark">
-          Game Development
+        <Button as={Link} to="/Portfolio" className="btn" variant="outline-light">
+          Portfolio
         </Button>
+        <Button as={Link} to="/Resume" className="btn" variant="outline-light">
+          Resume
+        </Button>
+        <Button as={Link} to="/About" className="btn" variant="outline-light">
+          About
+        </Button>
+
         </div>
       </div>
     </div>
